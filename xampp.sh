@@ -1,7 +1,8 @@
 #!/bin/sh
 
 SERVICE=mysql;
-PASSWORD=Bluerose67;
+echo "Enter the System password: " 
+read PASSWORD
 
 if ps ax | grep -v grep | grep $SERVICE > /dev/null
 then
