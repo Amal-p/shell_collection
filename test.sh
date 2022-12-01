@@ -1,3 +1,4 @@
 #!/bin/sh
 
-echo '\n\tTesting file';
+echo '\n\tTesting file'
+sleep 5
